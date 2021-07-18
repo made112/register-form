@@ -1,0 +1,121 @@
+label.required:after {
+    color: #d41e4b;
+    content: " *";
+    margin-left: 1px;
+}
+/* .bord-form{
+    border-top: 1px solid rgba(0, 0, 0, 0.1)
+
+} */
+@media only screen and (max-width: 600px) {
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > button{
+        
+        margin-left: -156%;;
+    } 
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(4){
+        flex-direction: row-reverse;
+    }   
+    
+}
+@media only screen and (max-width: 767px) {
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(4){       
+         flex-direction: column-reverse !important;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-between.align-items-center{
+        padding: 0px !important;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-between.align-items-center > span{
+        height: 20px !important;
+    font-family: "GT America"!important;
+    color: rgb(28, 146, 255)!important;
+    text-decoration: none!important;
+    line-height: 20px !important;
+    text-align: right !important;
+    font-size: 12px !important;
+    position: relative !important;
+    bottom: -7px !important;
+    right: 97px;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-between.align-items-center > div.d-inline-block.dropdown.show > select{
+        background-color: rgb(240, 240, 240);
+        border-radius: 8px;
+        margin-left: 185%;
+        position: relative;
+        bottom: -6px;
+        right: 23px;
+        font-size: 11px;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-between.align-items-center > div.logo > img{
+        margin-right: 73% !important;
+        margin-top: 19px !important;
+        position: relative;
+        left: 10px;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(4) > div:nth-child(2){
+        padding-left: 0px !important;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5){
+        display: block !important;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6){
+        display: block !important;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > button{
+        position: absolute !important;
+    width: 167px !important;
+    height: 43px !important;
+    left: 689px !important;
+    top: 739px !important;
+    }
+    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5) > div:nth-child(2){
+        padding-left: 0 !important;
+   
+        
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(2){
+    padding-left: 0 !important;
+}
+
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form{
+    padding: 0px 38px !important;
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > h4{
+    font-size: 14 px !important;
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > p{
+    font-size: 11px !important;
+}
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(4) > div:nth-child(1) > div > div > div{
+    color: red;
+    display: flex;
+    font-size: 12px;
+
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(4) > div:nth-child(2) > div > div{
+    color: red;
+    display: flex;
+    font-size: 12px;
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5) > div:nth-child(1) > div > div{
+        color: red;
+    display: flex;
+    font-size: 12px; 
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5) > div:nth-child(2) > div > div{
+    color: red;
+    display: flex;
+    font-size: 12px;
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(1) > div > div{
+    color: red;
+    display: flex;
+    font-size: 12px;
+}
+#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(2) > div > div{
+    color: red;
+    display: flex;
+    font-size: 12px;
+}
+
+
