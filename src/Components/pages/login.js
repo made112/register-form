@@ -1,12 +1,15 @@
 import React from 'react'
 
-function login() {
-  return (
-    <div>
-      <h1>welcome to the login page</h1>
-      
-    </div>
-  )
+function Login() {
+    return ( <
+        div >
+        <
+        h1 > welcome to the login page < /h1> <
+        p > dff < /p>
+
+        <
+        /div>
+    )
 }
 
-export default login
+export default Login;
