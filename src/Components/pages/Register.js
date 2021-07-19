@@ -1,5 +1,4 @@
 import React from 'react'
-import * as Yup from 'yup';
 import { Formik, Form, Field } from 'formik';
 
 import register from '../../assets/images/register.png'
@@ -10,54 +9,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useHistory } from 'react-router-dom';
 import { Progress } from 'antd';
 import "antd/dist/antd.css";
+import { SignupSchema } from '../Validation';
 const Register = () => {
   let history = useHistory();
-  const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+  SignupSchema
   const selecttag = ["English", "French"]
-  const SignupSchema = Yup.object().shape({
-    firstName: Yup.string()
-      .required('First Name is reqired'),
-    lastName: Yup.string()
-      .required('Last Name is reqired'),
-    email: Yup.string().email(' email').required('Email is reqired'),
-    phoneNumber: Yup.string()
-      .required('PhoneNumber is required').matches(phoneRegExp, 'Phone number is not valid'),
-    password: Yup.string()
-      .required('password is required'),
-    confirmPassword: Yup.string()
-      .required('confirm password is required '),
-  })
   return (
     <div>
       <div className="row">
-
         <div className="d-none d-lg-block col-12 col-lg-6">
-
           <img alt="register-page" src={register} />
-
         </div>
-
         <div className=" col-12 col-lg-6">
           <div className="d-flex justify-content-between align-items-center">
-
             <div className="logo">
               <img src={logo} className="img-fluid" />
-
-
             </div>
             <div className="d-inline-block dropdown show" >
               <select className="form-select"  >
-
                 <option>{selecttag[0]}</option>
                 <option>{selecttag[1]}</option>
               </select>
             </div>
             <span >Contact us</span>
-
-
           </div>
           <div className="d-flex justify-content-center pt-5  card-body">
-
             <Formik
               initialValues={{
                 firstName: '',
@@ -69,7 +45,6 @@ const Register = () => {
               }}
               validationSchema={SignupSchema}
               onSubmit={values => {
-
                 console.log(values);
                 history.push("/login")
               }}
@@ -80,11 +55,8 @@ const Register = () => {
                   <p className="pb-4 text-gray ">Please complete the form to activate your account.</p>
                   <div>
                     <h6 className=" text-capitalize mb-3">1.Admin Information</h6>
-
                     <Progress percent={50} status="active" />
-
                   </div>
-
                   <div className="border-form">
                     <div >
                       <div className="form-group">
@@ -159,12 +131,7 @@ const Register = () => {
 
       </div>
     </div>
-
-
   )
 }
-
-
-
 export default Register;
 
