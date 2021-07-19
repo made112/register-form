@@ -14,7 +14,7 @@ label.required:after {
         margin-left: -156%;
         ;
     }
-    #root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(3) > div{
+    #root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(3)>div {
         display: none !important;
     }
     #root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(4) {
@@ -213,67 +213,82 @@ img[alt=register-page] {
     height: 100vh;
     display: flex;
 }
+
 .ant-progress-text {
     display: none !important;
 }
-.ant-progress-outer { 
+
+.ant-progress-outer {
     width: 50% !important;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(3) > div > div > div > div{
-    background-color:#2BBEB8 ;
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(3)>div>div>div>div {
+    background-color: #2BBEB8;
 }
-.ant-progress-inner { 
+
+.ant-progress-inner {
     width: 162% !important;
     margin-top: -75px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(3) > div > div > div > div{
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(3)>div>div>div>div {
     height: 4px !important;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form{
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form {
     padding: 0px 21px;
     width: 100%;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div.border-form > div:nth-child(1){
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div.border-form>div:nth-child(1) {
     flex: 1 1 0%;
     padding-right: 8px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5){
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(5) {
     margin-top: 27px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6){
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(6) {
     margin-top: 27px;
+}
 
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div.border-form>div:nth-child(2) {
+    flex: 1 1 0%;
+    padding-right: 8px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div.border-form > div:nth-child(2) {
 
- flex: 1 1 0%;
-    padding-right: 8px;
-}
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5) > div:nth-child(2){
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(5)>div:nth-child(2) {
     flex: 1 1 0%;
     padding-left: 8px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(1){
-    flex: 1 1 0%;
-    padding-right: 8px;
-}
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(2){
-    flex: 1 1 0%;
-    padding-left: 8px;
-}
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(5) > div:nth-child(1){
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(6)>div:nth-child(1) {
     flex: 1 1 0%;
     padding-right: 8px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(2){
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(6)>div:nth-child(2) {
     flex: 1 1 0%;
     padding-left: 8px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div:nth-child(6) > div:nth-child(2){
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(5)>div:nth-child(1) {
+    flex: 1 1 0%;
+    padding-right: 8px;
+}
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(6)>div:nth-child(2) {
     flex: 1 1 0%;
     padding-left: 8px;
 }
-#root > div > div > div > div:nth-child(2) > div.d-flex.justify-content-center.pt-5.card-body > form > div.border-form > div:nth-child(2) > div > input{
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div:nth-child(6)>div:nth-child(2) {
+    flex: 1 1 0%;
+    padding-left: 8px;
+}
+
+#root>div>div>div>div:nth-child(2)>div.d-flex.justify-content-center.pt-5.card-body>form>div.border-form>div:nth-child(2)>div>input {
     position: relative;
     left: 6px;
 }
